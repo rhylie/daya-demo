@@ -2358,27 +2358,32 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 				font-size: 2.5em;
 			}
 
-			.icon.major.accent1 {
+			.icon.major.accent1,
+			.sow-icon-fontawesome.accent1 {
 				background: #666;
 				color: #ffffff;
 			}
 
-			.icon.major.accent2 {
+			.icon.major.accent2,
+			.sow-icon-fontawesome.accent2 {
 				background: #e89980;
 				color: #ffffff;
 			}
 
-			.icon.major.accent3 {
+			.icon.major.accent3,
+			.sow-icon-fontawesome.accent3 {
 				background: #7fcdb8;
 				color: #ffffff;
 			}
 
-			.icon.major.accent4 {
+			.icon.major.accent4,
+			.sow-icon-fontawesome.accent4 {
 				background: #90b0ba;
 				color: #ffffff;
 			}
 
-			.icon.major.accent5 {
+			.icon.major.accent5,
+			.sow-icon-fontawesome.accent5 {
 				background: #e5cb95;
 				color: #ffffff;
 			}
@@ -2858,22 +2863,22 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 			vertical-align: middle;
 		}
 
-			#header nav > .menu-main-nav-container > ul {
+			#header nav >  ul {
 				list-style: none;
 				margin: 0;
 				padding-left: 0;
 			}
 
-				#header nav > .menu-main-nav-container > ul > li {
+				#header nav >  ul > li {
 					display: inline-block;
 					padding-left: 0;
 				}
 
-					#header nav > .menu-main-nav-container > ul > li > ul {
+					#header nav >  ul > li > ul {
 						display: none;
 					}
 
-					#header nav > .menu-main-nav-container > ul > li a {
+					#header nav >  ul > li a {
 						display: inline-block;
 						height: 2em;
 						line-height: 1.95em;
@@ -2881,27 +2886,27 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 						border-radius: 6px;
 					}
 
-					#header nav > .menu-main-nav-container > ul > li a:not(.button) {
+					#header nav >  ul > li a:not(.button) {
 						color: #fff;
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
 					}
 
-						#header nav > ul > .menu-main-nav-container > li a:not(.button).icon:before {
+						#header nav > ul >  li a:not(.button).icon:before {
 							color: #999;
 							margin-right: 0.5em;
 						}
 
-					#header nav > .menu-main-nav-container > ul > li:first-child {
+					#header nav >  ul > li:first-child {
 						margin-left: 0;
 					}
 
-					#header nav > .menu-main-nav-container > ul > li.active a:not(.button) {
+					#header nav >  ul > li.active a:not(.button) {
 						background-color: rgba(153, 153, 153, 0.25);
 					}
 
-					#header nav > .menu-main-nav-container > ul > li .button {
+					#header nav >  ul > li .button {
 						margin: 0 0 0 0.5em;
 						position: relative;
 					}
@@ -2958,11 +2963,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 			position: absolute;
 		}
 
-			#header.alt nav > .menu-main-nav-container > ul > li a:not(.button).icon:before {
+			#header.alt nav >  ul > li a:not(.button).icon:before {
 				color: rgba(255, 255, 255, 0.75);
 			}
 
-			#header.alt nav > .menu-main-nav-container > ul > li.active a:not(.button) {
+			#header.alt nav >  ul > li.active a:not(.button) {
 				background-color: rgba(255, 255, 255, 0.2);
 			}
 
